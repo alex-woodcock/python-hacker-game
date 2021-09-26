@@ -6,7 +6,7 @@ print("itd take a 5up3r l33t h4ck3r to crack this code, and im not even sure you
 while True:
     userInput = input('\nInput a math expression for your guess: ')
     solution = random.randrange(2147483647)
-    if eval(userInput + "== random.randrange("+str(solution)+")"):
+    if eval(userInput + " == "+str(solution)):
         print("what?? how did you do that??? you win!?!? my evil scheeeeeeeemeeeesssss!!!!")
         break
     else:
